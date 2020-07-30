@@ -1,8 +1,8 @@
 
 ## ojs-3.1.1
 
-New Features
-------------
+## New Features
+
 	#520: Improve Submission Library utility
 	#1692: Public identifiers for chapters
 	#1816: Implement subscription support
@@ -11,8 +11,8 @@ New Features
 	#2872: Allow themes to override templates in plugins
 	#3130: Improve blinding for role sharing between editor/author/reviewer
   
-  Bug Fixes
----------
+## Bug Fixes
+
 	#1793: Test/fix PostgreSQL upgrades
 	#1865: Adding review comments wipes out email changes
 	#2102: Consider "Select All" feature for export tools
@@ -167,8 +167,8 @@ New Features
   
   ## ojs-3.1.2
    
-  New Features
-------------
+  ## New Features
+  
 	#1922: Add support for catalog paging
 	#2422: [OJS 3.x] Notify user when email sending fails?
 	#2438: [OJS] Editors should be able to add attachments to the Editorial Decision message
@@ -195,8 +195,8 @@ New Features
 	#4200: Permit deletions from the Copyedited grid
 	#4294: consider article covers in native export and import
 
-Bug Fixes
----------
+## Bug Fixes
+
 	#1116: setLocale ignores source parameter if HTTP_REFERER exists
 	#1619: Block adding discussion to oneself only
 	#1783: Review Form Preview
@@ -401,10 +401,11 @@ Bug Fixes
 	#4562: Hide edit/delete/upload link actions for galleys from authors
   
   
+ 
   ## ojs-3.2.0
   
-  New Features
-------------
+  ## New Features
+
 	#2072: [OJS] Versioning for published articles
 	#2096: Add support for rtl locales
 	#2438: [OJS] Editors should be able to add attachments to the Editorial Decision message
@@ -427,8 +428,8 @@ Bug Fixes
 	#5085: Add proxy support to plugin gallery
 	#5277: Add "Obsolete version" notice to PDF viewer when new version available
 
-Bug Fixes
----------
+## Bug Fixes
+
 	#1116: setLocale ignores source parameter if HTTP_REFERER exists
 	#1375: [OJS] Updating issue without volume results on 0 on database
 	#1403: Redirect to the current page after Login As
@@ -720,11 +721,13 @@ Bug Fixes
 	#5560: Files for old versions don't load
 	#5563: Possible to access unpublished articles when not logged in
 	#5569: Fix OJS 2.x to 3.x upgrade
+	
+	
+	
+	
   
-    ## ojs-3.2.1
-    
-    New Features
-------------
+ ## ojs-3.2.1
+ ## New Features
 	#5886: OMP site wide search
 	#5784: [OMP] Site index should list all presses
 	#5744: Add Noto font for Arabic characters
@@ -736,8 +739,8 @@ Bug Fixes
 	#4888: Write integration tests for versioning features
 	#3698: Support a "draft" option for reviews
 
-Bug Fixes
---------------------
+ ## Bug Fixes
+
 	#6026: Submission deletion can delete author records in other submissions
 	#6022: PostgreSQL upgrade to 3.2.0 resets all submissions to unpublished
 	#6000: Undefined const SCHEMA_PUBLICATION during upgrade
